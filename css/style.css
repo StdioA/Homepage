@@ -148,7 +148,8 @@ a:hover {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);*/
 	/* Set your background with this */
-	background: #348cb2 url("../images/banner_large.jpg") bottom left;
+	background: #348cb2 url("../images/banner.jpg") bottom left;
+	background: #348cb2 url("../images/spot_large.jpg") bottom left;
 	background-repeat: no-repeat;
 	height: 100%;
 	opacity: 1;
@@ -173,7 +174,7 @@ a:hover {
 	}
 }
 #bg {
-	background-size: 2250px 100%;
+	/*background-size: 2250px 100%;*/
 	width: 100%;
 	/*width: 6750px;*/
 }
