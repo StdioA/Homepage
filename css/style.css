@@ -116,6 +116,10 @@ a:hover {
 	background: url(../images/music.svg) center no-repeat;
 	background-size: 70%;
 }
+.telegram {
+	background: url(../images/telegram.svg) center no-repeat;
+	background-size: 70%;
+}
 /* Wrapper */
 @-webkit-keyframes wrapper {
 	0% {
