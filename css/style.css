@@ -104,6 +104,10 @@ a:hover {
 	background: url(../images/heartbeat.svg) center no-repeat;
 	background-size: 70%;
 }
+.paste {
+	background: url(../images/paste.svg) center no-repeat;
+	background-size: 70%;
+}
 .user {
 	background: url(../images/user.svg) center no-repeat;
 	background-size: 70%;
@@ -391,6 +395,10 @@ a:hover {
 	bottom: -2em;
 }
 #header nav a.crypt:hover span{
+	opacity: 0.9;
+	bottom: -3em;
+}
+#header nav a.paste:hover span{
 	opacity: 0.9;
 	bottom: -3em;
 }
