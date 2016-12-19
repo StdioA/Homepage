@@ -1,68 +1,54 @@
 <!DOCTYPE HTML>
-<html lang="zh-Hans">
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 	<head>
+		<title>David Dai</title>
 		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Welcome to David Dai's Personal Homepage!</title>
-		<meta name="author" content="David Dai" />
-		<meta name="description" content="Welcome to David Dai&apos;s Personal Homepage!" />
-		<meta name="keywords" content="" />
-		<meta name="viewport" content="minimal-ui,width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
-		<meta name="renderer" content="webkit|ie-comp|ie-stand" />
-		<style type="text/css" rel="stylesheet">.preload {display: none;}</style>
-		<link type="text/css" href="css/style.css" rel="stylesheet" />
-		<link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
-	<body class="loading" onload="_onload()">
-		<div class="preload">
-			<img src="images/spot_medium.jpg" alt="">
-			<img src="images/overlay.svg" alt="">
-			<img src="images/edit.svg" alt="">
-			<img src="images/user.svg" alt="">
-			<img src="images/crypt.svg" alt="">
-			<img src="images/paste.svg" alt="">
-		</div>
+	<body class="loading">
 		<div id="wrapper">
 			<div id="bg"></div>
 			<div id="overlay"></div>
 			<div id="main">
+
+				<!-- Header -->
 					<header id="header">
-						<h1>David&nbsp;Dai</h1>
-					<p>Welcome to David's Personal Homepage!</p>
+						<h1>David Dai</h1>
+						<p>Student, Backend, Python, Shanbay.</p>
 						<nav>
 							<ul>
-								<li><a href="https://crypt.stdioa.com/" class="icons crypt"><span>Cryptography Homework</span></a></li>
-								<li><a href="http://paste.stdioa.com" class="icons paste"><span>Online Clipboard</span></a></li>
-								<li><a href="https://blog.stdioa.com" class="icons edit"><span>My Blog</span></a></li>
-								<li><a href="http://sheet.stdioa.com" class="icons music"><span>Sheetbook</span></a></li>
-								<li><a href="https://blog.stdioa.com/about/" class="icons user"><span>About Me</span></a></li>
-								<!-- <li><a href="https://telegram.me/StdioA" class="icons telegram"><span>Contact Me</span></a></li> -->
+								<li><a href="https://crypt.stdioa.com/" class="icon fa-unlock-alt"><span class="label">Cryptography Homework</span></a></li>
+								<li><a href="http://paste.stdioa.com/" class="icon fa-sticky-note"><span class="label">Online Clipboard</span></a></li>
+								<li><a href="https://blog.stdioa.com/" class="icon fa-pencil-square-o"><span class="label">Blog</span></a></li>
+								<li><a href="https://github.com/StdioA" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://telegram.me/StdioA" class="icon fa-paper-plane"><span class="label">Telegram</span></a></li>
+								<li><a href="http://sheet.stdioa.com/" class="icon fa-music"><span class="label">Sheetbook</span></a></li>
 							</ul>
 						</nav>
 					</header>
+
+				<!-- Footer -->
 					<footer id="footer">
-					<p><span id="beian"><a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow">冀ICP备16000030号-1</a></span></p>
-					<p><span id="copyright">Copyright &copy; 2015-2016 Yuchen Dai. All rights reserved.</span></p>
+						<div class="copyright"><a href="http://www.miibeian.gov.cn" target="_blank" rel="nofollow">冀ICP备16000030号-1</a></div>
+						<div class="copyright">&copy; 2015-2016 Yuchen Dai. Design: <a href="http://html5up.net">HTML5 UP</a>.</div>
 					</footer>
+
 			</div>
 		</div>
-		
-		
-		<script type="text/javascript">
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
-			function _onload() {
-				document.body.className = '';
-				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-				ga('create', 'UA-65107715-2', 'auto');
-				ga('send', 'pageview');
-			}
 		</script>
-		
 	</body>
 </html>
